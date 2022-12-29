@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  transition: .5s all;
+}
+body{
+  background: #1E252B;
+}
+.container{
+  max-width: 1224px;
+  margin: 0 auto;
+}
+.btn{
+  font-weight: 500;
+  font-size: 16px;
+  color: #FF6E30;
+  padding: 12px 28px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover{
+    background: #FF6E30;
+    color: white;
+  }
+}
+@import "header";
+@import "login";
+@import "sign";
+@import "tools";
