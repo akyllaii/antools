@@ -1,0 +1,17 @@
+.brand{
+  padding: 56px 0;
+  background: rgba(44, 53, 61, 0.2);
+  backdrop-filter: blur(25px);
+  border-radius: 25px;
+  &__title{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+  &__icons{
+    display: flex;
+    column-gap: 107px;
+    margin-top: 55px;
+  }
+}

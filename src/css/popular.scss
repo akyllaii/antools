@@ -1,0 +1,67 @@
+.popular{
+  padding: 200px 0;
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  &__subtitle{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 25px 0 90px;
+  }
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 100px;
+  }
+  &__card{
+    width: calc(33.33333% - 25px);
+    padding: 33px;
+    &-top{
+      display: flex;
+      column-gap: 30px;
+    }
+    &-title{
+      font-weight: 500;
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.78);
+    }
+    &-subtitle{
+      font-weight: 400;
+      font-size: 18px;
+      color: rgba(255, 165, 55, 0.55);
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: rgba(255, 255, 255, 0.55);
+      margin: 30px 0;
+    }
+    &-btns{
+      display: flex;
+    }
+    &-btn{
+      padding: 9px 35px;
+      margin-left: 124px;
+    }
+    &-sketch{
+      background: rgba(40, 48, 54, 0.6);
+      backdrop-filter: blur(25px);
+      border-radius: 15px;
+    }
+  }
+  &__btn{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,35 @@
+.newcomer{
+  padding: 220px 0 200px;
+  &__row{
+    display: flex;
+    column-gap: 197px;
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  &__text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 30px 0 60px;
+  }
+  &__right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  &__card{
+    width: calc(50% - 24px);
+    &-php{
+      background: rgba(40, 48, 54, 0.6);
+      backdrop-filter: blur(25px);
+      border-radius: 15px;
+      padding: 28px;
+    }
+  }
+}

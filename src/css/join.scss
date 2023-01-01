@@ -1,0 +1,32 @@
+.join{
+  padding: 250px 0 240px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  &__text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 25px 0 100px;
+  }
+  &__search{
+    background: #283036;
+    border-radius: 15px;
+    padding: 8px 12px;
+  }
+  &__btn{
+    margin-left: 260px;
+  }
+  &__input{
+    background: transparent;
+    border: none;
+  }
+}
